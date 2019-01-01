@@ -1,0 +1,128 @@
+html {
+    background-color: rgb(192, 192, 192);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 760px;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: white;
+    border: 1px solid black;
+}
+header {
+    border-bottom: 2px solid black;
+    padding: .5em 0;
+}
+header h1 {
+    color: black;
+}
+main {
+
+}
+img {
+    display: inline-block;
+    max-width: 350px;
+    float: left;
+    margin-top: 75px;
+    margin-right: 10px;
+}
+aside {
+    float: left;
+    width: 155px;
+    padding-right: 1em;
+}
+section {
+    float: left;
+    width: 500px;
+    margin-left: 50px;
+}
+section.main_view {
+    float: left;
+    width: 300px;
+}
+textarea {
+    width: 350px;
+    height: 100px;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+}
+h1 {
+    font-size: 150%;
+    margin: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: .5em 0;
+}
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+p {
+    margin: .5em 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+li {
+    padding-bottom: .5em;
+}
+a {
+    color: rgb(41, 64, 124);
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(208, 133, 4);
+}
+br {
+    clear: left;
+}
+
+
+form {
+  margin-bottom: 15px;
+}
+
+th {
+  background-color: #cccccc;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+td, th {
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+} 
+
+.button {
+    padding: 5px 10px;
+    -webkit-appearance: button;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 2, 2018, 1:36:49 PM
+    Author     : Chuck Tucker
+*/
+
